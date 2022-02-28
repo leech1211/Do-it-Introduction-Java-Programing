@@ -1,0 +1,21 @@
+package Chpater08;
+
+public class CustomerTest1 {
+	public static void main(String[] args)
+	{
+		Customer lee = new Customer(10010,"이순신");
+//		lee.setCustomerID(10010);
+//		lee.setCustomerName("이순신");
+		lee.Point = 1000;
+		System.out.println(lee.showCustomerInfo());
+		
+		
+			VIPCustomer kim = new VIPCustomer(10020,"김유신",10);
+//			kim.setCustomerID(10020);
+//			kim.setCustomerName("김유신");
+			kim.Point = 10000;
+			System.out.println(kim.showCustomerInfo());
+		
+	}
+
+}
