@@ -1,0 +1,16 @@
+package Chapter05;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		Person personLee = new Person("컴공회장 리치");
+		Person person = new Person();
+		person.Name = "이창훈";
+		person.weight = 85.5F;
+		person.height = 180.F;
+		
+		Person personLee2 = new Person("가천대장 김동훈");
+
+	}
+
+}

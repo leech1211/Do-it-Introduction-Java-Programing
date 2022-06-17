@@ -1,0 +1,26 @@
+package Chapter06;
+
+public class TakeTrans {
+	public static void main(String[] args)
+	{
+		Student James = new Student("James",5000);
+		Student Tomas = new Student("Tomas",10000);
+		Student Layla = new Student("Layla",20000);
+		
+		Bus bus100 = new Bus(100);
+		James.takeBus(bus100);
+		James.showInfo();
+		bus100.showInfo();
+		
+		Subway sub2 = new Subway(2);
+		Tomas.takeSub(sub2);
+		Tomas.showInfo();
+		sub2.showInfo();
+		
+		Texi texi = new Texi(2606);
+		Layla.take(7000);
+		Layla.showInfo();
+		texi.showInfo();
+	}
+
+}

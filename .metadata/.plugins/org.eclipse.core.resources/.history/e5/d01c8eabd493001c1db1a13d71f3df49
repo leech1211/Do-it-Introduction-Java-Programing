@@ -1,0 +1,15 @@
+package Chapter06;
+
+
+class person {
+	String name;
+	int age;
+	
+	person(){
+		this("이름없음",1);
+	}
+	
+}
+public class CallAnothorConst {
+
+}
